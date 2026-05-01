@@ -71,7 +71,7 @@ const App: React.FC = () => {
 
       {/* Footer */}
       <footer className="p-6 text-center z-10 font-retro text-xl text-slate-500/80">
-        <p>© 2024 ChuongMyDistrict. All rights reserved.</p>
+        <p>© 2020 ChuongMyDistrict. All rights reserved.</p>
         <div className="flex justify-center gap-4 mt-2">
           <span className="hover:text-cmc-purple cursor-pointer transition-colors">Terms</span>
           <span>•</span>
