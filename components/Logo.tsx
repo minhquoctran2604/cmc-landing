@@ -17,7 +17,7 @@ const Logo: React.FC = () => {
   return (
     <div className="relative flex flex-col items-center justify-center select-none z-10">
       
-      {/* CMC Blocky Text */}
+      {/* CMD Blocky Text */}
       <motion.div 
         className="relative"
         initial={{ scale: 0.8, opacity: 0 }}
@@ -25,7 +25,7 @@ const Logo: React.FC = () => {
         transition={{ type: "spring", bounce: 0.5 }}
       >
         <div className="relative font-pixel font-bold text-8xl md:text-9xl tracking-tighter leading-none">
-          {/* Main CMC Layer with Gradient */}
+          {/* Main CMD Layer with Gradient */}
           <div className="relative z-10 flex items-center justify-center gap-1">
             {/* Letter C */}
             <div className="relative group">
@@ -52,10 +52,10 @@ const Logo: React.FC = () => {
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"><div className="w-2 h-2 bg-white rounded-full"></div></div>
             </div>
 
-            {/* Letter C */}
+            {/* Letter D */}
             <div className="relative group">
               <span className={rainbowTextClass}>
-                C
+                D
               </span>
               <div className="absolute inset-0 border-4 border-[#1a1a2e] rounded-lg -z-10 bg-[#1a1a2e] translate-y-1 translate-x-1"></div>
                {/* Tech Lines */}
@@ -66,7 +66,7 @@ const Logo: React.FC = () => {
         </div>
       </motion.div>
 
-      {/* ChuongMyCrew Text */}
+      {/* ChuongMyDistrict Text */}
       <motion.div 
         className="mt-2 md:mt-4 relative"
         initial={{ y: 20, opacity: 0 }}
@@ -83,7 +83,7 @@ const Logo: React.FC = () => {
           shadow-[0_0_20px_rgba(160,231,229,0.5)]
         ">
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-300 via-white to-pink-300 animate-pulse">
-            ChuongMyCrew
+            ChuongMyDistrict
           </span>
         </div>
       </motion.div>
