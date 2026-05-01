@@ -6,7 +6,7 @@ import Logo from './components/Logo';
 import { PixelHeart } from './components/PixelIcons';
 
 const App: React.FC = () => {
-  const discordLink = "https://discord.gg/your-invite-code"; // Placeholder
+  const discordLink = "https://discord.gg/dsZUntaC8r";
 
   return (
     <div className="min-h-screen text-slate-800 font-pixel selection:bg-pink-300 selection:text-white flex flex-col">
