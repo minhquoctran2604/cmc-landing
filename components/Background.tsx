@@ -32,7 +32,7 @@ const Background: React.FC = () => {
   return (
     <div className="fixed inset-0 w-full h-full overflow-hidden -z-10">
       {/* Base Gradient Layer */}
-      <div className="absolute inset-0 bg-gradient-to-br from-pink-200 via-yellow-100 to-cyan-200 animate-pulse-slow"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-pink-300 via-yellow-200 via-emerald-200 to-cyan-300 animate-pulse-slow"></div>
 
       {/* Checkerboard Overlay (Subtle) */}
       <div 
@@ -50,7 +50,7 @@ const Background: React.FC = () => {
       ></div>
 
       {/* Vignette */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,rgba(255,255,255,0.4)_100%)]"></div>
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,rgba(255,255,255,0.1)_100%)]"></div>
 
       {/* Floating Elements */}
       {items.map((item) => (

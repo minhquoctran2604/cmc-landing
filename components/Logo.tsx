@@ -16,9 +16,9 @@ const Logo: React.FC = () => {
 
   return (
     <div className="relative flex flex-col items-center justify-center select-none z-10">
-      
+
       {/* CMD Blocky Text */}
-      <motion.div 
+      <motion.div
         className="relative"
         initial={{ scale: 0.8, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
@@ -58,16 +58,16 @@ const Logo: React.FC = () => {
                 D
               </span>
               <div className="absolute inset-0 border-4 border-[#1a1a2e] rounded-lg -z-10 bg-[#1a1a2e] translate-y-1 translate-x-1"></div>
-               {/* Tech Lines */}
-               <div className="absolute top-6 right-4 w-6 h-1 bg-white opacity-40"></div>
-               <div className="absolute bottom-4 right-2"><PixelHeart className="w-4 h-4 text-white" /></div>
+              {/* Tech Lines */}
+              <div className="absolute top-6 right-4 w-6 h-1 bg-white opacity-40"></div>
+              <div className="absolute bottom-4 right-2"><PixelHeart className="w-4 h-4 text-white" /></div>
             </div>
           </div>
         </div>
       </motion.div>
 
       {/* ChuongMyDistrict Text */}
-      <motion.div 
+      <motion.div
         className="mt-2 md:mt-4 relative"
         initial={{ y: 20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
